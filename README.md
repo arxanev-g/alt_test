@@ -9,8 +9,9 @@ The application downloads the package lists for the two branches and compares th
 
 ```
 su-
+apt-get update
 apt-get install git gcc-c++ libpoco-devel
-https://github.com/arxanev-g/alt_test.git
+git clone https://github.com/arxanev-g/alt_test.git
 cd alt_test
 make
 ```
@@ -28,8 +29,9 @@ To use other branches, you should write make run ARGS="mybranch1 my-branch-2", s
 ```
 make run ARGS="p9 p10"
 ```
-Deleting binary files, object files, and libraries
+The result is saved to the result.json file.
 
+Deleting binary files, object files, and libraries
 
 ```
 make clean
