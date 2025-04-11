@@ -10,6 +10,8 @@ The application downloads the package lists for the two branches and compares th
 ```
 su-
 apt-get install git gcc-c++ libpoco-devel
+https://github.com/arxanev-g/alt_test.git
+cd alt_test
 make
 ```
 
